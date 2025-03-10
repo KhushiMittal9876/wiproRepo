@@ -45,7 +45,7 @@ public class BrowserSelect {
 	
 	@Test(dataProvider = "getData")
 	public void test(String username, String password) throws InterruptedException {
-		System.out.println("Username: " + username + " Password: " + password + " Thread ID: " + Thread.currentThread().threadId());
+		System.out.println("Username: " + username + " Password: " + password + " Thread ID: " + Thread.currentThread());
 		getBrowser("chrome", "http://www.facebook.com");
 		
 		driver.findElement(By.id("email")).sendKeys(username);

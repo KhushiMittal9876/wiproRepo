@@ -8,6 +8,6 @@ import io.cucumber.testng.CucumberOptions;
 		"json:src/main/resources/Reports/cucumber-reports/CucumberTestReport.json",
 		"rerun:src/main/resources/Reports/cucumber-reports/rerun.txt" })
 
-public class RediffRunner extends AbstractTestNGCucumberTests {
+public class RediffRunnerTestCase extends AbstractTestNGCucumberTests {
 
 }
